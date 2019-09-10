@@ -13,3 +13,6 @@ def get_joke():
 
     joke_string = joke_json['value']['joke']
     return joke_string
+
+if __name__ == "__main__":
+    app.run(debug=True)
